@@ -28,6 +28,15 @@ you can rss any zhihu's user in it
 
 如果等不及想试用，在稳定版安装程序出来之前，请自行编译，以下是所需依赖，有任何问题可以开issue， 或者加qq群：478786205 来讨论。
 
+arch:
+```
+sudo pacman -S python-pyqt5 qt5-quick1 qt5-quickcontrols
+```
+
+zhihu-rss目录下先执行
+```
+sudo pip install -r requirements.txt
+```
 
 ## 依赖：
 
